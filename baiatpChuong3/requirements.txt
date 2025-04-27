@@ -1,0 +1,2 @@
+# Sử dụng thư viện chuẩn của Python
+# Không cần cài thêm thư viện ngoài

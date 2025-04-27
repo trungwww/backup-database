@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2.2 (Python 3.12.6 on win32)" generated="2025-04-24T15:57:54.404951" rpa="false" schemaversion="5">
+<suite id="s1" name="Login Test Heroku" source="E:\TuDongHoaQuyTrinh\login_test_heroku.robot">
+<test id="s1-t1" name="Invalid Login" line="11">
+<kw name="Mở trình duyệt">
+<kw name="Open Brower">
+<msg time="2025-04-24T15:57:54.499427" level="FAIL">No keyword with name 'Open Brower' found.</msg>
+<arg>${URl}</arg>
+<arg>chrome</arg>
+<status status="FAIL" start="2025-04-24T15:57:54.499427" elapsed="0.000000">No keyword with name 'Open Brower' found.</status>
+</kw>
+<kw name="Maximize Brower Window">
+<status status="NOT RUN" start="2025-04-24T15:57:54.499427" elapsed="0.000000"/>
+</kw>
+<status status="FAIL" start="2025-04-24T15:57:54.484340" elapsed="0.015087">No keyword with name 'Open Brower' found.</status>
+</kw>
+<kw name="đăng nhập">
+<status status="NOT RUN" start="2025-04-24T15:57:54.499427" elapsed="0.000000"/>
+</kw>
+<kw name="kiểm tra đăng nhập thành công">
+<status status="NOT RUN" start="2025-04-24T15:57:54.499427" elapsed="0.000000"/>
+</kw>
+<status status="FAIL" start="2025-04-24T15:57:54.484340" elapsed="0.016842">No keyword with name 'Open Brower' found.</status>
+</test>
+<doc>viết test case trang login</doc>
+<status status="FAIL" start="2025-04-24T15:57:54.422668" elapsed="0.080256"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Login Test Heroku" id="s1" pass="0" fail="1" skip="0">Login Test Heroku</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2025-04-24T15:57:54.484340" level="ERROR">Error in file 'E:\TuDongHoaQuyTrinh\login_test_heroku.robot' on line 3: Importing library 'seleniumLibrary' failed: ModuleNotFoundError: No module named 'seleniumLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Users\ngot5\AppData\Local\Programs\Python\Python312\Scripts\robot.exe
+  C:\Users\ngot5\AppData\Local\Programs\Python\Python312\python312.zip
+  C:\Users\ngot5\AppData\Local\Programs\Python\Python312\DLLs
+  C:\Users\ngot5\AppData\Local\Programs\Python\Python312\Lib
+  C:\Users\ngot5\AppData\Local\Programs\Python\Python312
+  C:\Users\ngot5\AppData\Local\Programs\Python\Python312\Lib\site-packages</msg>
+</errors>
+</robot>
